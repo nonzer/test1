@@ -1,0 +1,219 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+.n_title h1{
+    color: #7ed490;
+    /* font-weight:; */
+}
+.n_title{
+    /* position:absolute; */
+    float:left;
+    /* top:5.8px; */
+    left:30px;
+    margin-left:30px; 
+
+    /* height: 100px; */
+}
+/* 
+.n_title, .n_links{
+    margin:0px 0px 0px 30px;
+    padding-top: 2px;
+    color:#ffffff;
+} 
+*/
+.n_links{  
+    color:#ffffff;
+    font-weight:bold;
+    /* position: absolute; */
+    /* top:30px;
+    right:30px; */
+    float:right;
+    margin-top:20px; 
+    margin-right:35px;
+    /* padding-bottom:30px; */
+}
+
+.n_links a{
+    padding: 0 10px 0 10px ;
+}
+.n_title p{
+    color: #ffffff;
+    /* font-weight:; */
+}
+
+.n_header{
+    /* position:absolute; */
+    position:fixed;
+    z-index:9; 
+    box-shadow: 2px 3px 10px 4px rgba(0, 0, 0, 0.4);
+   
+    border-bottom: 3px solid #35dfa6;
+    min-width:500px;
+    width:100% ; height: 150px;
+    background-color:#262727;
+    display:block;
+}
+.n_footer{
+    color:#ffffff;
+    height:150px;
+    width:100%;
+    background:#161616;
+    padding:20px;
+    margin-top:40px;
+}
+.n_main{
+    padding-top:180px;
+}
+
+a:hover{
+    color:#21ecaf;
+    font-size:17px;
+    text-decoration:none;
+    /* outline: 0px auto ; */
+}
+a{
+    /* display: block; */
+    /* text-decoration:none; */
+    color:#35dfa6;
+}
+a:visited{
+    color:rgb(41, 124, 90);
+    font-size:20px;
+}
+a:focus{
+    /* font-size:40px;  */
+    color:#ff1fcf;
+    outline: 0px auto -webkit-focus-ring-color; /* cette ligne permet  a ce que lon puisse eviter ouline lors du focus sur les liens  grace a 0px (epaisseur du outline)*/
+}
+article{
+    background-color:#fafafa;
+}
+.n_img{
+   
+    max-height:300px;
+    /* height: 350px; */
+    width: auto;
+    align-self: center;
+}
+p{
+    display: block;
+}
+/* @media screen and ( width : 750px ){
+    .n_img{
+        width: 150px;
+        height: auto;
+    }
+    .n_title{color:red;}
+} */
+.n_content {
+    /* width:100%; */
+    /* display: block; */
+    /* border: 2px; */
+    /* align-items: center; */
+    /* justify-content: center; */
+   
+    /* justify-content: space-between; */
+}
+
+.n_footer{
+    background-image:url();
+}
+
+.n_aside{
+    margin-left:3px;
+    /* max-width:400px; */
+}
+.n_aside ~ p {
+    display: inline-block;
+}
+.n_focus{
+    position:relative;
+    height:400px;
+    width:100%;
+
+    padding:50%px;
+    margin:20px;
+    text-align: center;
+    padding-top: 30%;
+  
+    background-image:url('../images/macos.jpg');
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+    /* align-items: center; */
+    /* background-color:#eef8f1; */
+}
+.n_focus_content{
+    position:absolute;
+    right:20%; left:20%;top:40%; 
+    /* bottom:20%; */
+    
+    
+    display: inline-block;
+    /* width:45%; */
+
+    color:#fafafa;
+    font-weight:bold; font-size:15px;
+    height: auto;
+}
+
+
+
+
+
+
+
+/* debut css faq by nkd */
+
+#question{   
+   
+    color:#fff;
+    padding-left: 15px;
+    font-style: weight;
+    cursor: pointer;
+    outline: none;
+   
+}
+
+.reponse{
+    margin: 0 auto;
+    background: #e0f7f3;
+    border-radius: 0 0 4px 4px ;
+    color:#161616;
+    padding-left: 50px;
+}
+
+.q{
+    
+    outline: none;
+    
+    background-color:#0ad4b2; 
+    outline:none;
+    border-radius: 4px 4px 0 0;
+    color:#fff;
+    padding: 4px;
+    display:block;
+
+}
+
+a.q:link
+{
+text-decoration:none;
+} 
+
+.q >h4{
+    text-decoration:none;
+}
+
+.q >span{
+    font-style: weight;
+    padding: 0 10px 0 10px;
+    float:left;
+    display:inline-block;
+    text-align: center;
+    font-size:32px;
+    max-height:20px;
+    cursor:pointer;
+}
+/* Fin CSS faq*/
